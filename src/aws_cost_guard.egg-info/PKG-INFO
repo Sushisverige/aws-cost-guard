@@ -1,0 +1,8 @@
+Metadata-Version: 2.4
+Name: aws-cost-guard
+Version: 0.1.0
+Summary: Read-only AWS cost risk scanner (EC2/EBS/EIP/NAT) for beginners
+Requires-Python: >=3.10
+Requires-Dist: boto3
+Requires-Dist: typer
+Requires-Dist: rich

@@ -1,0 +1,9 @@
+pyproject.toml
+src/aws_cost_guard/cli.py
+src/aws_cost_guard.egg-info/PKG-INFO
+src/aws_cost_guard.egg-info/SOURCES.txt
+src/aws_cost_guard.egg-info/dependency_links.txt
+src/aws_cost_guard.egg-info/entry_points.txt
+src/aws_cost_guard.egg-info/requires.txt
+src/aws_cost_guard.egg-info/top_level.txt
+tests/test_help.py

@@ -1,0 +1,12 @@
+[project]
+name = "aws-cost-guard"
+version = "0.1.0"
+description = "Read-only AWS cost risk scanner (EC2/EBS/EIP/NAT) for beginners"
+requires-python = ">=3.10"
+dependencies = ["boto3", "typer", "rich"]
+
+[project.scripts]
+aws-cost-guard = "aws_cost_guard.cli:app"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]

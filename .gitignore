@@ -1,0 +1,13 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# macOS
+.DS_Store
+
+# Terraform/OpenTofu (念のため)
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup

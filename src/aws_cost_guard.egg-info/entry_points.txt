@@ -1,0 +1,2 @@
+[console_scripts]
+aws-cost-guard = aws_cost_guard.cli:app
