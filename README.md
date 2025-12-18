@@ -1,11 +1,26 @@
 # aws-cost-guard
 
-Beginner-friendly **read-only** AWS cost risk scanner.
-It helps prevent surprise AWS bills by spotting common cost risks:
-- EC2 instances (running/stopped)
-- EBS volumes (available)
-- Elastic IPs (unused)
-- NAT Gateways
+Beginner-friendly **read-only** AWS cost risk scanner.  
+It helps prevent surprise AWS bills by spotting common cost risks.
+
+## What it checks
+- **EC2** instances (pending/running/stopping/stopped)
+- **EBS** volumes that are **available** (often forgotten)
+- **Elastic IPs** that are **unassociated** (unused)
+- **NAT Gateways** (can be expensive)
+
+## Why this exists
+When learning AWS, it’s easy to forget resources and get billed while sleeping.
+This tool provides a quick “am I safe?” checklist from the command line.
+
+## Safety (Important)
+- ✅ **Read-only**: this tool does **NOT** create/update/delete any AWS resources.
+- ✅ You can run it anytime to confirm cost risks.
+- ✅ No AWS keys are stored by this tool (it uses your AWS CLI credentials).
+
+## Prerequisites
+- Python 3.10+
+- AWS CLI configured (profile or environment variables)
 
 ## Install (local)
 ```bash

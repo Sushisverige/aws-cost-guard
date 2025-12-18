@@ -1,4 +1,6 @@
+README.md
 pyproject.toml
+src/aws_cost_guard/__init__.py
 src/aws_cost_guard/cli.py
 src/aws_cost_guard.egg-info/PKG-INFO
 src/aws_cost_guard.egg-info/SOURCES.txt
