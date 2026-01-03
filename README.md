@@ -29,3 +29,8 @@ source .venv/bin/activate
 pip install -U pip
 pip install -e .
 
+
+## Compliance / Privacy / Ethics
+- This repository is provided as a sample/portfolio.
+- Do not process personal/confidential data without proper authorization and consent.
+- Review docs/DATA_HANDLING.md and docs/ETHICS.md before any real-world use.
